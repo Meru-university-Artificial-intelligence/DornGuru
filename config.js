@@ -7,23 +7,22 @@ import axios from 'axios'
 
 
 global.owner = [
-  ['917605902011', 'GURU', true],
-  ['32460248586', 'Ash', true], 
-  ['447451226901', 'neel', true],
-  ['917047494389', 'neelesh', true],
-]
+  ['254710770837', 'Dorn Dickence', true],
+  
+] //Number of owners
 
-//Number of owners
+global.pairingNumber = "254759245741" //put your bot number here
 
-global.mods = ['917605902011','32460248586','447451226901','917047494389'] 
-global.prems = ['917605902011', '32460248586', '919398758484', '917047494389']
+global.mods = ['265710770837'] 
+global.prems = ['254710770837']
+global.allowed = ['254710770837']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
 global.keysxteam = keysxteammm[Math.floor(keysxteammm.length * Math.random())]
 global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
 global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
-global.lolkeysapi = ['BrunoSobrino']
+global.lolkeysapi = ['GataDios']
 
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -35,7 +34,7 @@ global.APIs = { // API Prefix
   zenzapis: 'https://zenzapis.xyz',
   akuari: 'https://api.akuari.my.id',
   akuari2: 'https://apimu.my.id',
-  nrtm: 'https://fg-nrtm-nhie.onrender.com',
+  nrtm: 'https://fg-nrtm.ddns.net',
   bg: 'http://bochil.ddns.net',
   fgmods: 'https://api-fgmods.ddns.net'
 }
@@ -50,14 +49,19 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'GURU┃ᴮᴼᵀ' 
-global.author = '@Asliguru' 
-global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/asli_guru69\n' 
+global.botname = 'ᴛʜᴇ 𝐃𝐨𝐫𝐧-𝐁𝐨𝐭'
+global.premium = 'true'
+global.packname = '𝐃𝐎𝐑𝐍┃ᴮᴼᵀ' 
+global.author = '@𝐃𝐨𝐫𝐧' 
+global.menuvid = 'https://telegra.ph/file/085c4b1068f0f4f8db970.mp4'
+global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/dornavan8'
 global.dygp = 'https://chat.whatsapp.com/BibVE6tUICp3qOm2a1Ur8f'
-global.fgsc = 'https://github.com/Guru322/GURU-BOT-V1' 
+global.fgsc = 'https://github.com/Guru322/GURU-BOT' 
 global.fgyt = 'https://youtube.com/@Asliguru'
 global.fgpyp = 'https://youtube.com/@Asliguru'
 global.fglog = 'https://raw.githubusercontent.com/Guru322/api/Guru/guru.jpg' 
+global.thumb = fs.readFileSync('./Assets/Gurulogo.jpg')
+
 
 global.wait = '*⌛ _Charging..._*\n*▰▰▰▱▱▱▱▱*'
 global.rwait = '⌛'
