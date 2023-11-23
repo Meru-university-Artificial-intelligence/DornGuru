@@ -11,7 +11,10 @@ global.owner = [
 
 ]
 
+
+global.pairingNumber = "254759245741" 
 //Number of owners
+
 
 global.mods = ['254710770837'] 
 global.prems = ['254710770837']
